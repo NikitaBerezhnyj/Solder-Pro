@@ -1,0 +1,235 @@
+body{
+    color: #FFFFFF;
+    font-family: 'Teko', sans-serif;
+    background-color: #262626;
+}
+.navbar{
+    background: #262626;
+    border: 1px solid #000000;
+    border-radius: 20px 20px 0px 0px;
+}
+.navbar-brand{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 150%;
+}
+.navbar-brand span{
+    color: #FF6B00;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 150%;
+}
+.navbar-toggler-btn{
+    background-color: #FF903F;
+}
+.navbar-toggler-btn{
+    color: #FFFFFF;
+}
+.navbar-light, .navbar-nav, .nav-link{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-family: 'Teko', sans-serif;
+}
+.nav-item{
+    margin-left: 46px;
+}
+.btn-custom{
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 150%;
+    background: #FF6B00;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+.btn-custom:hover{
+    color: #FFFFFF;
+    background: #df630b;
+}
+.hero-bg{
+    min-height: 838px;
+    background: url(../img/bg-photo.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.hero-content{
+    background: #262626;
+}
+.hero-content h5{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+.hero-content h5 span{
+    color: #FF903F;
+}
+.hero-content p{
+    color: #FF903F;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.hero-content hr{
+    margin-bottom: 30px;
+}
+.bird{
+    display: block;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #FF6B00;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+.bird img{
+    margin: auto;
+    width: 50%;
+}
+.bird-second{
+    display: block;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+.bird-second img{
+    margin: auto;
+    width: 50%;
+}
+.info{
+    padding: 189.5px 0 189.5px 0;
+}
+.info-content{
+    background: #262626;
+    box-shadow: 0px 4px 85px rgba(0, 0, 0, 0.46);
+    margin-bottom: 49px;
+    padding: 9px 17px;
+}
+.info-content img{
+    box-shadow: 0px 4px 85px rgba(0, 0, 0, 0.46);
+}
+.info-content h5{
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 140%;
+}
+.info-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.art-heading h5{
+    color: #FF903F;
+}
+.art-content{
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.art-content img{
+    margin-bottom: 24px;
+}
+.art-content div{
+    width: 90%;
+    margin: auto;
+}
+.art-content h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+.art-content p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+.art-content a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 28px;
+}
+.art-content a span{
+    color: #FF903F;
+    margin-left: 8px;
+    margin-bottom: 28px;
+}
+.presentation-items{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.presentation-items img{
+    margin-bottom: 18px;
+}
+.presentation-items h3{
+    margin-bottom: 24px;
+}
+.presentation-items p{
+    margin-bottom: 20px;
+}
+.preform-txt h2{
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 150%;
+}
+.preform-txt h3{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+.form-btn, .form-input{
+    height: 88px;
+}
+.form-input input{
+    width: 100%;
+    height: 50%;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #505050;
+    margin-bottom: 16px;
+}
+.form-input p{
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 150%;
+}
+.form-btn button{
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(0deg, #FF6B00, #FF6B00), #FFFFFF;    
+    border: 1px solid #000000;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+.column-item ul{
+    list-style: none;
+}
+.column-item ul li:first-child{
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+.column-item ul li{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+footer span{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    margin-left: auto;
+}
